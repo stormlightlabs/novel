@@ -1,5 +1,6 @@
 # Summary
 
+- [Resources](./chapter_0.md)
 - [Chapter 1](./chapter_1.md)
 
 ## Planned
@@ -28,17 +29,14 @@
    - Lists and scrollable content
    - Canvas and custom drawing
    - Tables and grids
-
 7. Handling User Input
    - Mouse and keyboard events
    - Drag and drop functionality
    - Gestures and multi-touch
-
 8. Async Operations and Subscriptions
    - Background tasks
    - Working with subscriptions
    - Network requests and I/O
-
 9. Custom Widgets
    - Creating your own widgets
    - Widget composition
