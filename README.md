@@ -15,41 +15,14 @@ an IDE for your writing.
 
 ### TODO
 
-- [ ] Minimal core models
-    - [ ] Implement basic Document struct
-    - [ ] Implement simple Project struct
-    - [ ] Add serialization/deserialization support
-- [ ] Minimal UI skeleton
-    - [ ] Set up iced application entry point
-    - [ ] Create basic window layout with a single pane
-    - [ ] Implement basic document view widget
-- [ ] Basic text editor
-    - [ ] Add simple text input with markdown syntax highlighting
-    - [ ] Implement basic text formatting (bold, italic, etc.)
-    - [ ] Add undo/redo functionality
-- [ ] File I/O
-    - [ ] Implement document loading from disk
-    - [ ] Implement document saving to disk
-    - [ ] Basic error handling
-- [ ] File Browser
-    - [ ] Create file picker dialog
-    - [ ] Implement directory listing
-    - [ ] Add file preview functionality
-- [ ] Initial integration tests
-    - [ ] Test file loading and saving
-    - [ ] Test UI interaction with simple documents
-- [ ] Enhance text editor
-    - [ ] Implement markdown syntax highlighting
-    - [ ] Add keyboard shortcuts for common formatting
-    - [ ] Implement cursor positioning and selection
-- [ ] Document management
-    - [ ] Create new document functionality
-    - [ ] Implement document tabs or selector
-    - [ ] Add basic document metadata display
-- [ ] Implement document statistics
-    - [ ] Add word count functionality
-    - [ ] Implement character count
-    - [ ] Create simple statistics display
+- Minimal UI skeleton -> [Issue #1](https://github.com/stormlightlabs/novel/issues/1)
+- Basic text editor -> [Issue #2](https://github.com/stormlightlabs/novel/issues/2)
+- File I/O -> [Issue #6](https://github.com/stormlightlabs/novel/issues/6)
+- File Browser -> [Issue #15](https://github.com/stormlightlabs/novel/issues/15)
+- Initial integration tests -> [Issue #16](https://github.com/stormlightlabs/novel/issues/16)
+- Enhance text editor -> [Issue #17](https://github.com/stormlightlabs/novel/issues/17)
+- Document management -> [Issue #18](https://github.com/stormlightlabs/novel/issues/18)
+- Document statistics -> [Issue #19](https://github.com/stormlightlabs/novel/issues/19)
 - [ ] File browser
     - [ ] Implement directory navigation
     - [ ] Add document listing
