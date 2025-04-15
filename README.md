@@ -1,13 +1,14 @@
 # Novel.rs
 
-Novel writing software built with GTK4 and Rust (Relm4).
+Novel writing software built with ~~GTK4 and Rust (Relm4)~~ Iced & Rust. Aiming to be
+an IDE for your writing.
 
 ## Development
 
 ### Crates
 
 - `novelrs-core` (`/core`): Core domain model and logic
-- `app` (`/app`): GTK4 application containing UI components
+- `app` (`/app`): ~~GTK4~~ Iced application containing UI components
 - `export` (`/export`): Exporting functionality to EPUB, PDF, Docx
 - `markdown` (`/markdown`): Markdown processing (parsing and rendering)
 - `store` (`/store`): Git & Dropbox/Cloud integration
@@ -19,14 +20,21 @@ Novel writing software built with GTK4 and Rust (Relm4).
     - [ ] Implement simple Project struct
     - [ ] Add serialization/deserialization support
 - [ ] Minimal UI skeleton
-    - [ ] Set up Relm4 application entry point
+    - [ ] Set up iced application entry point
     - [ ] Create basic window layout with a single pane
     - [ ] Implement basic document view widget
+- [ ] Basic text editor
     - [ ] Add simple text input with markdown syntax highlighting
+    - [ ] Implement basic text formatting (bold, italic, etc.)
+    - [ ] Add undo/redo functionality
 - [ ] File I/O
     - [ ] Implement document loading from disk
     - [ ] Implement document saving to disk
     - [ ] Basic error handling
+- [ ] File Browser
+    - [ ] Create file picker dialog
+    - [ ] Implement directory listing
+    - [ ] Add file preview functionality
 - [ ] Initial integration tests
     - [ ] Test file loading and saving
     - [ ] Test UI interaction with simple documents
